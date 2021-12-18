@@ -2,7 +2,7 @@
   "name": "file-open",
   "description": "Opens a local file from the browser",
   "repository": "nikku/file-open",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "module": "index.js",
   "main": "index.js",
   "scripts": {
