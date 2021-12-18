@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>File Open Test</title>
+</head>
+<body>
+  <button id="chooser-button">Choose a file</button>
+
+  <script type="module">
+    import { fileOpen } from './index.js';
+
+    const button = document.querySelector('#chooser-button');
+
+    button.addEventListener('click', async function() {
+      const files = await fileOpen();
+
+      console.log(files);
+    });
+  </script>
+</body>
+</html>

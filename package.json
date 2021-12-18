@@ -1,19 +1,18 @@
 {
-  "name": "open-file-dialog",
-  "description": "Opens the browsers file dialog",
-  "repository": "f-mer/open-file-dialog",
-  "version": "1.0.1",
+  "name": "file-open",
+  "description": "Opens a local file from the browser",
+  "repository": "nikku/file-open",
+  "version": "0.0.0",
   "scripts": {
-    "deps": "dependency-check . && dependency-check . --extra --no-dev",
-    "test": "standard && npm run deps"
-  },
-  "devDependencies": {
-    "dependency-check": "^2.9.1",
-    "standard": "^10.0.2"
+    "start": "sirv --dev ."
   },
   "keywords": [
     "browser",
-    "file-dialog"
+    "file-dialog",
+    "file-open"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "sirv-cli": "^1.0.14"
+  }
 }
