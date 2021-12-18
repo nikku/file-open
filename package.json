@@ -3,6 +3,8 @@
   "description": "Opens a local file from the browser",
   "repository": "nikku/file-open",
   "version": "0.0.0",
+  "module": "index.js",
+  "main": "index.js",
   "scripts": {
     "start": "sirv --dev ."
   },
@@ -14,5 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "sirv-cli": "^1.0.14"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
