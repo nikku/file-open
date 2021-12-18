@@ -1,4 +1,4 @@
-export function fileOpen(opts = {}) {
+export default function fileOpen(opts = {}) {
 
   let resolve, reject;
 

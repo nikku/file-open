@@ -6,6 +6,9 @@ All notable changes to [file-open](https://github.com/nikku/file-open) are docum
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.1.1
+
+* `FIX`: correct `default` export
 
 ## 0.1.0
 

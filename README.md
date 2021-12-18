@@ -6,7 +6,7 @@ Opens a file from the browser.
 ## Usage
 
 ```js
-import { fileOpen } from 'file-open';
+import fileOpen from 'file-open';
 
 const button = document.querySelector('#chooser-button');
 
