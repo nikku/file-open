@@ -1,3 +1,19 @@
+/**
+ * @typedef { {
+ *   name: file.name,
+ *   path: file.path,
+ *   contents: e.target.result
+ * } } File
+ */
+
+/**
+ * Prompt the user to open a file or multiple files. Resolve the
+ * promise with the opened files.
+ *
+ * @param { { multiple?: boolean, accept?: 'string' } } opts
+ *
+ * @return { Promise<File[]> }
+ */
 export default function fileOpen(opts = {}) {
 
   let resolve, reject;
