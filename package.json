@@ -14,6 +14,7 @@
   },
   "scripts": {
     "all": "echo 'nothing to run'",
+    "test": "echo \"no tests yet :o)\"",
     "start": "sirv --dev ."
   },
   "keywords": [
