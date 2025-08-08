@@ -3,8 +3,14 @@
   "description": "Opens a local file from the browser",
   "repository": "nikku/file-open",
   "version": "0.1.1",
-  "module": "index.js",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "all": "echo 'nothing to run'",
     "start": "sirv --dev ."
