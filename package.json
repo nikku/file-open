@@ -2,7 +2,7 @@
   "name": "file-open",
   "description": "Opens a local file from the browser",
   "repository": "nikku/file-open",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "type": "module",
   "exports": {
     ".": {
