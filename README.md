@@ -13,7 +13,7 @@ const button = document.querySelector('#chooser-button');
 button.addEventListener('click', async function() {
   const files = await fileOpen();
 
-  console.log(files);
+  // files = [ { name, contents }, ... ]
 });
 ```
 
